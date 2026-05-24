@@ -1,9 +1,9 @@
 [build]
-  command = "yarn install --ignore-engines && yarn build"
+  command = "yarn install && yarn build"
   publish = "dist"
 
 [build.environment]
-  NODE_VERSION = "20"
+  NODE_VERSION = "24"
 
 [[redirects]]
   from = "/*"
